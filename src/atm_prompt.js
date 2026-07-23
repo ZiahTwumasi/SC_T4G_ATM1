@@ -21,7 +21,7 @@ if (enteredPin === userPin) {
     console.log(typeof userAmount); // number
     if (userBalance >= userAmount) {
         let newUserBalance = userBalance - userAmount
-        alert("TRANSACTION SUCCESSFUL");
+        "TRANSACTION SUCCESSFUL"
         receiptText.innerText = `Dispensing cash... You withdrew ${userAmount}.
         Your remaining balance is now ${newUserBalance}.`;
     } else {
