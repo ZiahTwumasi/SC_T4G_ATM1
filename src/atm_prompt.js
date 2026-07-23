@@ -6,11 +6,11 @@ const receiptText = document.getElementById("receipt-text");
 
 // 1. SET THEINITIAL BALANCE & SECURITY DATA
 let userPin = "1234"; //pin stored for the user
-let userBalance = $25000;
+let userBalance = 25000;
 
 
 // 2. ASK THE USER FOR INPUT (Runs automatically as soon as the page loads)
-let enteredPin = prompt("Welcome to Student Bank ATM. Please enter your 4-digit pin:");
+let enteredPin = prompt("Welcome to Student Bank ATM! Please enter your 4-digit pin:");
 
 // 3. VALIDATE / CHECK THE PIN NUMBER
 if(enteredPin === userPin){
